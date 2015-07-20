@@ -13,7 +13,7 @@ class PizzasController < ApplicationController
 			client_secret = "#{ENV['FOURSQUARE_CLIENT_SECRET']}"
 			@lat = user["lat"]
 			@lng = user["lng"]
-			foursquare_url = "https://api.foursquare.com/v2/venues/explore?client_id=#{client_id}&client_secret=#{client_secret}&v=20130815&ll=#{@lat},#{@lng}&query=one+dollar+pizza&limit=10&radius=1610"
+			foursquare_url = "https://api.foursquare.com/v2/venues/explore?client_id=#{client_id}&client_secret=#{client_secret}&v=20130815&ll=#{@lat},#{@lng}&query=dollar+pizza&limit=10&radius=1610"
 			venues_response =  HTTParty.get(foursquare_url)
 			venues_info = JSON.parse(venues_response.response.body)
 			path = JsonPath.new('$..venue')

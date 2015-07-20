@@ -5,8 +5,12 @@ studying in GA can get very expensive, specially if you have to buy food!!!, for
 ##using oauth##
 this app requires to to log in, using a gem called omnioauthm I was able to implement solution to sign in using an account for one this social networks: Facebook, Twitter, Google+ or Linkedin
 
-##about the app##
+
+##Rails and Bower are BFF's <3##
 this is app was build using ruby on rails, I used bower to manage the front end dependencies like: jquery for interactivity, gmaps to render maps with all locations on screen and bootstrap for styling.
+
+## Foursquare ##
+Foursquare played a big part by returning all the adresses of the pizza places near by, and then it renders them with the help of gmaps.js 
 
 ##Instuctions##
 1. click on the sign in button and select the desired social network to be used.
