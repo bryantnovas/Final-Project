@@ -19,7 +19,7 @@ Foursquare played a big part by returning all the adresses of the pizza places n
 
 1. then you'll have to give the app permission to see some of your info (again not password or usernames, just your human name and profile picture)
 
-1. after verifying your adentity the app will redirect you to a the site where the map is and it will display your current position and where the closest pizzas places are.
+1. after verifying your identity the app will redirect you to a the site where the map is and it will display your current position and where the closest pizzas places are.
 
 the live version is here https://blooming-dusk-8036.herokuapp.com/
 
