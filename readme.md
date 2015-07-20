@@ -2,7 +2,7 @@
 
 studying in GA can get very expensive, specially if you have to buy food!!!, for that I put my two cents an created an app that you can find pizza for a dollar close to were you are :).
 
-##using oauth##
+##Using Oauth##
 this app requires to to log in, using a gem called omnioauthm I was able to implement solution to sign in using an account for one this social networks: Facebook, Twitter, Google+ or Linkedin
 
 
