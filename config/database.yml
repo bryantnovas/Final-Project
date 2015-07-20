@@ -22,4 +22,4 @@ test:
 
 production:
   <<: *default
-  url: <%= ENV['HEROKU_POSTGRESQL_COPPER_URL'] %>
+  url: <%= ENV['DATABASE_URL'] %>
