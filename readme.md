@@ -17,5 +17,6 @@ this is app was build using ruby on rails, I used bower to manage the front end 
 
 1. after verifying your adentity the app will redirect you to a the site where the map is and it will display your current position and where the closest pizzas places are.
 
+the live version is here https://blooming-dusk-8036.herokuapp.com/
 
 #Enjoy your meal!!! :)#
